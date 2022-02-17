@@ -1,0 +1,56 @@
+/*
+  15. Set the base styling properties for our content.
+  - Font size.
+  - Heading text set to Montserrat
+  - Body text set to Roboto
+  - Body text set to 20px
+  ***** add any additonal styling that you would like if you choose to.
+*/
+body{
+  font-size: 20px;
+  font-family: "Roboto";
+}
+h1{
+  font-family: "Montserrat";
+}
+header{
+  display: flex;
+  align-items: center;
+  height: 125px;
+}
+header div{
+  flex-grow: 11;
+}
+[alt="our logo"]{
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+header nav{
+  flex-grow: 1;
+}
+header ul{
+  display: flex;
+  list-style:none;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.row-one{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 15px 10px;
+  align-items: end;
+}
+.row-two{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  align-items: center;
+}
+aside{
+  padding: 5% 2%;
+  background-color: black;
+  color: white;
+}

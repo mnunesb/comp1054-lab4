@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interface Design With CSS | Lab 4</title>
+    <meta name="description" content="This is the index file for lab 4. Please follow the instructions found in the comments in this document">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- 1. Link the normalize CSS file -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 2. Link our CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!--
+      3. Make the header element a flex container.
+      4. Make the content centered along the cross axis and give it a fixed height of 125px.
+    -->
+    <header>
+      <!--
+        5. Using a flex-grow property, push the nav all the way over to the right. MAke sure to adjust the logo size so that it fits in the header.
+      -->
+      <div>
+        <a href="index.html"><img src="./img/sample-logo.png" alt="our logo"></a>
+      </div>
+      <nav>
+        <!--
+          6. Make the ul a flex container.
+          7. Remove the list styling.
+        -->
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--
+      8. Make the div below a grid container.
+      9. Once the div is a grid container, make it a 2 column grid. The first column should be 60% of the viewport and the second column should be the remaining 40%.
+    -->
+    <div class="wrapper">
+      <main>
+        <!--
+          10. Make the section below a grid container. It should have 2 columns of equal width.
+          11. Add padding to the top, bottom, left, & right of the divs.
+          12. Align all the content to the bottom of the grid container.
+        -->
+        <section class="row-one">
+          <div>
+            <h1>Lab 4</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat. Tellus mauris a diam maecenas sed enim. Tellus elementum sagittis vitae et leo duis ut diam. Tincidunt augue interdum velit euismod in. Cras sed felis eget velit aliquet sagittis. Massa enim nec dui nunc mattis enim ut tellus. Quam adipiscing vitae proin sagittis. Etiam erat velit scelerisque in dictum non. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat. Tellus mauris a diam maecenas sed enim. Tellus elementum sagittis vitae et leo duis ut diam. Tincidunt augue interdum velit euismod in. Cras sed felis eget velit aliquet sagittis. Massa enim nec dui nunc mattis enim ut tellus. Quam adipiscing vitae proin sagittis. Etiam erat velit scelerisque in dictum non. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.</p>
+          </div>
+        </section>
+        <!-- 13. Make the section below a grid container. The grid needs to be 6 columns of equal width. Align the content to the center cross axis. -->
+        <section class="row-two">
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </section>
+      </main>
+      <!-- 14. Add 5% padding to the top and bottom of the aside, then add 2% padding to the left and right of the aside. Change the background color to black and change the font color to white.-->
+      <aside>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat. Tellus mauris a diam maecenas sed enim. Tellus elementum sagittis vitae et leo duis ut diam. Tincidunt augue interdum velit euismod in. Cras sed felis eget velit aliquet sagittis. Massa enim nec dui nunc mattis enim ut tellus. Quam adipiscing vitae proin sagittis. Etiam erat velit scelerisque in dictum non. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat. Tellus mauris a diam maecenas sed enim. Tellus elementum sagittis vitae et leo duis ut diam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat. Tellus mauris a diam maecenas sed enim. Tellus elementum sagittis vitae et leo duis ut diam. Tincidunt augue interdum velit euismod in. Cras sed felis eget velit aliquet sagittis. Massa enim nec dui nunc mattis enim ut tellus. Quam adipiscing vitae proin sagittis. Etiam erat velit scelerisque in dictum non. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.</p>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
